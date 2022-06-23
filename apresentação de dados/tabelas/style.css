@@ -1,0 +1,19 @@
+table, td, th {
+    border: solid 3px rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 150px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(91, 208, 208);
+    font-size: 1.5rem;
+}
+
+td {
+    background-color: rgb(208, 208, 208);
+    font-size: 1.2rem;
+}
