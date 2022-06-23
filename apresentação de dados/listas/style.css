@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ol {
+    background-color: rgb(198, 89, 89);
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
