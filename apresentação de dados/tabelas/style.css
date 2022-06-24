@@ -3,6 +3,41 @@ table {
     margin-bottom: 30px;
 }
 
-table, th, td {
+.tabela-1, .tabela-1 th, .tabela-1 td,.tabela-2, .tabela-2 th, .tabela-2 td {
     border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.tabela-1 th {
+    background-color: rgb(126, 207, 207);
+    font-size: 1.3rem;
+    width: calc(100%/7);
+}
+
+.tabela-1 td {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.tabela-1 td:hover {
+    background-color: rgb(189, 153, 147);
+    cursor: pointer;
+}
+
+.tabela-1 th:hover {
+    background-color: rgb(64, 83, 83);
+    cursor: pointer;
+}
+
+.tabela-2 tr:first-child {
+    background-color: rgb(90, 195, 90);
+}
+
+.tabela-3 {
+    text-align: left;
+    border-spacing: 0 5px;
+}
+
+.tabela-3 tr:nth-child(even) {
+    background-color: rgb(192, 192, 192);
 }
