@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+}
+
+table, td, th {
+    text-align: center;
+    border: solid 1px #bababa;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+thead tr:first-child {
+    color: grey;
+}
+
+.price {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.basico {
+    background-color: #7dcbff;
+}
+
+.padrao {
+    background-color: #3737ef;
+}
+
+.avancado {
+    background-color: #9f06cd;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover {
+    opacity: .8;
+}
